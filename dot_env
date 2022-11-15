@@ -1,0 +1,2 @@
+source ~/.envs/test.env
+source ~/.envs/go.env
