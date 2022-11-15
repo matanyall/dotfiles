@@ -135,6 +135,9 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+# Load completion for 1passwors
+eval "$(op completion zsh)"; compdef _op op
+
 
 export PATH="$PATH:/usr/lib/dart/bin"
 [ -f ~/.cargo/env ] && source $HOME/.cargo/env
