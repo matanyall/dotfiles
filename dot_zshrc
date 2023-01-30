@@ -19,6 +19,9 @@ export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 
+# export PATH="/usr/local/bin:$PATH"
+export PATH="/opt/homebrew/bin:$PATH"
+
 ZSH_THEME="powerlevel10k/powerlevel10k"
 export EDITOR="micro"
 
